@@ -1,0 +1,114 @@
+.navigation-container {
+  max-width: 1140px;
+	margin: 0 auto;
+}
+
+.navigation__list {
+	display: flex;
+	list-style-type: none;
+	justify-content: center;
+	z-index: 0;
+}
+
+.navigation__list_string {
+	text-transform: uppercase;
+	font-family: $text-ff;
+	font-size: 14px;
+	font-weight: 700;
+	padding: 20px 40px 20px 0;
+	position: relative;
+	a {
+		text-decoration: none;
+		color: black;
+		padding: 20px 0px 20px 0;
+		&:hover {
+			border-bottom: 3px solid $pink;
+			margin-bottom: 20px;	
+		}
+	}
+}
+
+.navigation__list_string:hover .navigation__list_string-menu {
+	display: flex;
+}
+
+.navigation__list_string-menu {
+	background-color: #fff;
+	border-radius: 5px;
+	position: absolute;
+	border: 1px solid #e6e6e6;
+	font-family: $text-ff;
+	display: flex;
+	margin-left: -80px;
+	margin-top: 15px;
+	display: none;
+	z-index: 2;
+	&::before{
+		content: "";
+		display: block;
+		width: 12px;
+		height: 12px;
+		border-left: 1px solid #e6e6e6;
+		border-top: 1px solid #e6e6e6;
+		position: absolute;
+		margin-left: 66px;
+		transform: rotate(45deg);
+		margin-top: -7px;
+		background-color: #fff;
+	}
+}
+
+.navigation__list_string-menu-block {
+	padding-bottom: 20px;
+	h3 {
+		border-bottom: 1px solid #e6e6e6;
+		padding-bottom: 10px;
+		width: 235px;
+		color: #232323;
+		font-size: 14px;
+		font-weight: 400;
+		letter-spacing: 0.35px;
+		text-transform: uppercase;
+		margin: 0 13px;
+		padding-top: 20px;
+		margin-right: 46px;
+		&:last-of-type {
+			margin-right: 25px;
+		}
+	}
+	ul {
+		list-style-type: none;
+	}
+	a {
+		text-decoration: none;
+		letter-spacing: 0.35px;
+		font-size: 14px;
+		font-weight: 400;
+		color: #646464;
+		padding-left: 20px; 
+		text-transform: none;
+		&:hover {
+			border-bottom: none;
+		}
+	}
+	li {
+		line-height: 28px;
+	}
+	img {
+		padding-top: 20px;
+	}
+}
+
+.navigation__list_string-middle:hover .navigation__list_string-menu {
+	left: -200px;
+	&::before {
+		margin-left: 265px;
+	}
+}
+
+.navigation__list_string-last:hover .navigation__list_string-menu {
+	left: -350px;
+	&::before {
+		margin-left: 415px;
+	}
+}

@@ -1,0 +1,28 @@
+@import "_var.scss";
+@import "_header.scss";
+@import "_nav.scss";
+@import "_banner.scss";
+@import "_shop-front.scss";
+@import "_catalog.scss";
+@import "_sale.scss";
+@import "_subscription.scss";
+@import "_about-us.scss";
+@import "_footer.scss";
+@import "_page-title.scss";
+@import "_main-content.scss";
+@import "_conditions.scss";
+@import "_slider.scss";
+@import "_flypage.scss";
+@import "_associated-goods.scss";
+@import "_shopping-cart.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-btn {
+    background-color: $pink;
+    padding: 12px 25px;
+    border: 1px solid $pink;
+}

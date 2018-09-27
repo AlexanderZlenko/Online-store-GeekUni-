@@ -1,0 +1,169 @@
+.flypage {
+  position: relative;
+  height: 100%;
+}
+
+.flypage-container {
+  max-width: 1140px;
+  height: auto;
+  background-color: #fff;
+  position: absolute;
+  left: 8%;
+  top: -40px;
+  padding: 0 260px 120px 260px;
+  z-index: 1;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.flypage__block_title {
+  font-family: $text-ff;
+  font-size: 14px;
+  font-weight: 700;
+  color: $pink;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 14px; 
+}
+
+.flypage__block_title-border {
+  display: flex;
+  align-items: center;
+  width: 147px;
+  margin: 0 auto;
+  padding-bottom: 17px;
+}
+
+.flypage__block_title-border-grey {
+  background-color: #e6e6e6;
+  width: 49px;
+  height: 1px;
+}
+
+.flypage__block_title-border-pink {
+  background-color: $pink;
+  width: 49px;
+  height: 3px;
+}
+
+.flypage__block_goods-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 618px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #e6e6e6;
+  h3 {
+    font-family: $text-ff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4d4d4d;
+    text-align: center;
+    padding-bottom: 70px;
+  }
+  p {
+    font-family: $text-ff;
+    font-size: 14px;
+    font-weight: 300;
+    color: #5e5e5e;
+    line-height: 24px;
+    align: justify;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+}
+
+.flypage__block_goods-description-material-designer {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: $text-ff;
+  font-size: 14px;
+  padding-bottom: 35px;
+  span {
+    padding-right: 45px;
+    &:last-of-type {
+      padding-right: 0;
+    }
+    color: #b9b9b9;
+    font-weight: 700;
+
+  }
+  .last-word {
+    font-weight: 700;
+    color: #2f2f2f;
+  }
+}
+
+.flypage__block_goods-description-price {
+  font-family: $text-ff;
+  font-size: 24px;
+  font-weight: 700;
+  color: $pink;
+  text-align: center;
+}
+
+.flypage__block_goods-filter {
+  display: flex;
+  padding-left: 37px;
+  padding-top: 50px;
+}
+
+.flypage__block_goods-filter-block {
+  display: block;
+  padding-right: 47px;
+  position: relative;
+  &:last-of-type {
+    padding-right: 0px;
+  }
+  h3 {
+    font-family: $text-ff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+  }
+  select {
+    outline: none;
+    border: 1px solid #eaeaea;
+    padding: 12px 85px 12px 15px;
+    color: #bcbcbc;
+    font-family: $text-ff;
+    font-size: 13px;
+    font-weight: 400;
+  }
+}
+
+.flypage-btn {
+  display: block;
+  margin: 0 auto;
+  font-family: $text-ff;
+  font-size: 16px;
+  font-weight: 700;
+  color: $pink;
+  background-color: #fff;
+  border: 1px solid $pink;
+  padding: 15px 206px;
+  margin-top: 30px;
+  span {
+    padding-left: 15px;
+    vertical-align: middle;
+  }
+  img {
+    vertical-align: middle;
+    &:hover {
+      stroke: $pink;
+      fill: $pink;
+    }
+  }
+  &:hover {
+    background-color: #fff;
+    color: $pink;
+    cursor: pointer;
+  }
+}
+
+
+
+

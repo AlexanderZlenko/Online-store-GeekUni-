@@ -1,0 +1,40 @@
+.banner {
+    background-color: #e8e8e8;
+}
+
+.banner-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    height: auto; 
+    background: url(../img/banner.png) 0 -51px no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__text {
+    margin-top: 224px;
+    border-left: 12px solid $pink;
+    padding-left: 12px;
+    margin-bottom: 295px;
+}
+
+.banner__text_line1 {
+    font-family: $text-ff;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.banner__text_line2 {
+    font-family: $text-ff;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 30px;
+    span {
+        color: $pink;
+        font-weight: 900;
+    }
+}

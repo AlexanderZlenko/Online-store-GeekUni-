@@ -1,0 +1,45 @@
+.page-title {
+  background-color: #f8f3f4;
+}
+
+.page-title-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 65px 0;
+}
+
+.page-title__left_title {
+  color: $pink;
+  font-family: $text-ff;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.page-title__right {
+  a {
+    text-decoration: none;
+  }
+}
+
+.page-title__right_text {
+  font-family: $text-ff;
+  font-size: 14px;
+  font-weight: 300;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.non-active a {
+  color: black;
+  text-transform: uppercase;
+}
+
+.active a {
+  color: $pink;
+  text-transform: uppercase;
+  font-weight: 700;
+}

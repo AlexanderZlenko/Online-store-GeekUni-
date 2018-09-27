@@ -1,0 +1,37 @@
+.slider {
+  background-color: #f7f7f7;
+}
+
+.slider-container {
+  max-width: 1140px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slider__pic {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  z-index: 0;
+}
+
+.slider__btn_left {
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: -9.2%;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.slider__btn_right {
+  border: none;
+  position: absolute;
+  top: 50%;
+  right: -9.2%;
+  &:hover {
+    cursor: pointer;
+  }
+}

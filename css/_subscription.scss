@@ -1,0 +1,144 @@
+.subscription {
+	background: url("../img/subscription-background.jpg") no-repeat;
+	background-size: cover;
+	padding-top: 110px;
+}
+
+.subscription-container {
+  max-width: 1140px;
+  margin: 0 auto;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.subscription__left {
+	display: flex;
+}
+
+img.subscription__left_pic {
+	margin-right: 28px;
+}
+
+.subscription__left_text {
+	width: 387px;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 156px;
+	p{
+	font-family: $text-ff;
+	font-size: 15px;
+	font-style: italic;
+	letter-spacing: 0.4px;
+	line-height: 26px;
+	padding-bottom: 19px;
+	}
+}
+
+.subscription__left_text-name {
+	font-family: $text-ff;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0.4;
+	color: $pink;
+}
+
+.subscription__left_text-location {
+	font-family: $text-ff;
+	font-size: 12px;
+	font-weight: 300;
+	letter-spacing: 0.3px;
+	padding-bottom: 40px;
+}
+
+.subscription__left_text-dash {
+	width: 140px;
+	display: flex;
+}
+
+.subscription__left_text-dash1 {
+	margin-right: 13px;
+	width: 38px;
+	height: 4px;
+	background-color: #d6d6d6;
+}
+
+.subscription__left_text-dash3 {
+	width: 38px;
+	height: 4px;
+	background-color: #d6d6d6;
+}
+
+.subscription__left_text-dash2 {
+	width: 38px;
+	height: 4px;
+	background-color: $pink;
+	margin-right: 13px;
+}
+
+.subscription__right {
+	display: flex;
+	padding-top: 38px;
+}
+
+.subscription__right_text {
+	display: flex;
+	flex-direction: column;
+	padding-right: 92px;
+}
+
+.subscription__right_text-line1 {
+	font-family: $text-ff;
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 0.6px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.subscription__right_text-line2 {
+	font-family: $text-ff;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.35px;
+	text-transform: uppercase;
+	padding-bottom: 35px;
+	text-align: center;
+}
+
+.subscription__right_text-form {
+	display: flex;
+	input{
+		width: 280px;
+		height: 46px;
+		border-radius: 23px 0 0 23px;
+		border: none;
+		background-color: #e1e1e1;
+		font-family: $text-ff;
+		font-size: 14px;
+		font-weight: 400;
+		opacity: 0.67;
+		letter-spacing: 0.35px;
+		padding-left: 28px;
+		color: #222224;
+		outline: none;
+	}
+	button {
+		width: 100px;
+		height: 46px;
+		border-radius: 0 23px 23px 0;
+		border: none;
+		background-color: $pink;
+		margin-left: -5px;
+		font-family: $text-ff;
+		font-size: 14px;
+		font-weight: 400;
+		letter-spacing: 0.35px;
+		color: white;
+		outline: none;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}

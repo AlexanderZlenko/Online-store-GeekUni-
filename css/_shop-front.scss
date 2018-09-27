@@ -1,0 +1,97 @@
+.shop-front {
+    background-color: #fff;
+}
+
+.shop-front-container {
+    max-width: 1140px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 98px;
+    display: grid;
+    grid-template-columns: 560px 560px;
+    grid-template-rows: repeat(3,261px);
+    grid-template-areas: 
+        "men women"
+        "men kids"
+        "accessories kids";
+    grid-gap: 20px;
+}
+
+.shop-front__men {
+    max-width: 560px; /*не уверен на соклько правильно использую max-width и max-height в данном случае. Возможно просто widht и height?*/
+    max-height: 542px; 
+    height: 100%;
+    background: url(../img/shop-front__men.png);
+    grid-area: men;
+    display: flex;
+    &:hover {
+      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+      cursor: pointer;
+    }
+}
+
+.shop-front__women {
+    max-width: 560px;
+    max-height: 261px;
+    height: 100%;
+    background: url(../img/shop-front__women.png);
+    grid-area: women;
+    display: flex;
+    &:hover {
+      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+      cursor: pointer;
+    }
+}
+
+.shop-front__accessories {
+    max-width: 560px;
+    max-height: 261px;
+    height: 100%;
+    background: #dadad2 url(../img/shop-front__accessories.png) 149px 0 no-repeat;
+    grid-area: accessories;
+    display: flex;
+    &:hover {
+      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+      cursor: pointer;
+    }
+}
+
+.shop-front__kids {
+    max-width: 560px;
+    max-height: 542px;
+    height: 100%;
+    background: url(../img/shop-front__kids.png);
+    grid-area: kids;
+    display: flex;
+    &:hover {
+      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+      cursor: pointer;
+    }
+}
+
+.shop-front__mark {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 15px 18px;
+    height: 50px;
+    margin-top: 26px;
+}
+
+.shop-front__text_line1 {
+    font-family: $text-ff;
+    font-size: 17px;
+    font-weight: 900;
+    letter-spacing: 0.45px;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.shop-front__text_line2 {
+    font-family: $text-ff;
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 0.75px;
+    color: $pink;
+    text-transform: uppercase;
+}

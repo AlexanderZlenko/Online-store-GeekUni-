@@ -1,0 +1,41 @@
+.conditions {
+  background-color: #222224;
+}
+
+.conditions-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.conditions__block {
+  text-align: center;
+  padding: 90px 81px 110px 0;
+  h3 {
+    font-size: 20px;
+		font-weight: 700;
+		letter-spacing: 0.5px;
+    padding-bottom: 17px;
+    color: #fbfbfb;
+  }
+  p {
+    font-size: 14px;
+		font-weight: 300;
+		line-height: 24px;
+    letter-spacing: 0.35px;
+    color: #fbfbfb;
+  }
+  img {
+    padding-bottom: 32px;
+  }
+  &:last-of-type {
+    padding-right: 0;
+  }
+}
+
+.conditions__block:nth-child(2) {
+  img {
+    padding-bottom: 26px;
+  }
+}
